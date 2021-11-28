@@ -1,6 +1,18 @@
 # Fibonacci-Calculator
 
+## Tutorial Video
+
+- [Fibonacci Calculator Tutorial](https://youtu.be/CRgMfaxc7xw)
+
 ## Usage
+- Clone the project
+```bash
+git clone https://github.com/Toolacious/Fibonacci-Calculator-with-logging.git
+```
+- Get to the project
+```bash
+cd Fibonacci-Calculator-with-logging
+```
 - Install project dependencies
 ```bash
 # Install protobuf compiler
@@ -24,7 +36,7 @@ docker run -d -it -p 1883:1883 -v $(pwd)/mosquitto.conf:/mosquitto/config/mosqui
 ```
 - Start the loggin service
 ```bash
-$ python3 server.py
+python3 server.py
 ```
 - Start the fibonacci calculator service
 ```bash
